@@ -73,6 +73,5 @@ Assign value to each node starting with 1 for a non-faulty source. Each node the
 
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/15.png)
 
-
-
+Hence, at best case, it is easy to identify (but not count to exact) if there exists at least one path from source to destination using this heuristic. In worst case, the algorithm will run log n times where n is the number of columns of nodes in the mesh, which is log n times more than the average case time complexity of the original algorithm.
 
