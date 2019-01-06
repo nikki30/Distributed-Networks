@@ -50,6 +50,7 @@ Assign value to each node starting with 1 for a non-faulty source. Each node the
 ## Results:
 
 [columns indexed from 0 to 7]
+
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/10.png)
 
 ## Computation to merge subRSD’s FAPC values
