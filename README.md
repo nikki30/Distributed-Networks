@@ -4,12 +4,12 @@ Heuristic to compute the existence of a fault tolerant path between the source a
 ## Motivation: 
 It is not just faulty nodes in the path between a source and destination that hinder communication, it is also the nodes near the faulty nodes such as unreachable nodes (can't be reached from source due to a faulty node) and the useless nodes(can't forward to the destination due to a faulty node)
 
-So far, the related works in this area have been:
+## Related works:
 
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/1.png)
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/2.png)
 
-## APC Method
+## Allowed Path Counter Method (the base paper)
 
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/3.png)
 
