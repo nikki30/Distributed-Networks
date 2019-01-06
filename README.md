@@ -11,17 +11,18 @@ It is not just faulty nodes in the path between a source and destination that hi
 
 ## Allowed Path Counter Method (the base paper)
 
+Assign value to each node starting with 1 for a non-faulty source. Each node then gets a value that is the addition of the value on its left and bottom (only considering XY routing), which represents the number of ways to get to that node from the source. 
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/3.png)
 
-## FAPC and RAPC Method
+## Forward-APC and Reverse-APC Method
 
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/4.png)
 
-## Example - Mesh network with faulty nodes
+## Example - Consider Mesh network with faulty nodes
 
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/5.png)
 
-## FAPC values
+## The corresponding FAPC values for the example
 
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/6.png)
 
