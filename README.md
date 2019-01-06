@@ -26,9 +26,13 @@ We realized that it is not just these nodes that are faulty and hence can't be i
 
 ## Our algorithm
 1.N clusters are formed with sources S1, S2, ...Sn
+
 2.S1 sends (w, h) to S2, S3, ...Sn where n is the number of clusters, w is the width of the subRSD, h is the height of the subRSD
+
 3.Each Si gets a list of the faulty nodes within its subRSD
+
 4.Each Si runs the APC algorithms in parallel 
+
 5.We keep merging subRSDs pairwise until we get the FAPC values for the entire RSD
 
 ## Splitting the mesh network
