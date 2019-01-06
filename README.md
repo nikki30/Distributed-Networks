@@ -1,9 +1,10 @@
 # Distributed-Networks
-A project to compute the existence of a fault tolerant path between the source and destination
+Heuristic to compute the existence of a fault tolerant path between the source and destination
 
 ## Motivation: 
-Earlier only 1 fault in a 2D mesh could be tolerated and upto 2 faults in a 3D mesh.
-We realized that it is not just these nodes that are faulty and hence can't be in the path between source and destination, but also those that are rendered useless and unreachable due to these faulty nodes.
+It is not just faulty nodes in the path between a source and destination that hinder communication, it is also the nodes near the faulty nodes such as unreachable nodes (can't be reached from source due to a faulty node) and the useless nodes(can't forward to the destination due to a faulty node)
+
+So far, the related works in this area have been:
 
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/1.png)
 ![cnn](https://github.com/nikki30/Distributed-Networks/blob/master/img/2.png)
